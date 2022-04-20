@@ -1,4 +1,4 @@
-package arrays.prcatice;
+package two_d_arrays;
 
 import java.util.Scanner;
 

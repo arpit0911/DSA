@@ -1,6 +1,6 @@
-package oops;
+package oops.single_linklist;
 
-public class LinkList {
+public class SingalLinkList {
     /**
      * Node
      */
@@ -138,45 +138,4 @@ public class LinkList {
         System.out.println("null");
     }
 
-    // * main method can be implemented in other class
-    public static void main(String[] args) {
-        LinkList ll = new LinkList();
-        // ll.add(10);
-        // ll.display();
-        // ll.add(101);
-        // ll.display();
-        // ll.add(106);
-        // ll.display();
-        // ll.add(102);
-        // ll.display();
-        // ll.remove();
-        // ll.display();
-        // ll.remove();
-        // ll.display();
-        // ll.remove();
-        // ll.display();
-        // ll.remove();
-        // ll.display();
-        ll.addAtFirst(1);
-        ll.display();
-        ll.addAtFirst(2);
-        ll.display();
-        ll.addAtFirst(3);
-        ll.display();
-        ll.addAtFirst(9);
-        ll.display();
-        // ll.removeFirstNode();
-        // ll.display();
-        // ll.removeFirstNode();
-        // ll.display();
-        // ll.removeFirstNode();
-        // ll.display();
-        // ll.removeFirstNode();
-        // ll.display();
-        ll.updateNode(4, 500);
-        ll.display();
-        ll.addOne();
-        ll.display();
-
-    }
 }
