@@ -3,6 +3,7 @@ package arrays.sorting;
 import java.util.Arrays;
 
 public class QuickSort {
+    // ** time--> O(nlog n) Space O(1)
     public static void main(String[] args) {
         int [] arr={2,1,8,7,3,4};
         int n=arr.length;

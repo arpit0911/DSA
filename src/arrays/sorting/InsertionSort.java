@@ -20,7 +20,6 @@ public class InsertionSort {
             }
         }
     }
-
     private static void swap(int[] arr, int j, int i) {
         int temp= arr[i];
         arr[i]= arr[j];
